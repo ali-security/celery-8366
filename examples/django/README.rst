@@ -39,7 +39,7 @@ In addition, some Python requirements must also be satisfied:
 
 .. code-block:: console
 
-    $ pip install -r requirements.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -r requirements.txt
 
 Starting the worker
 ===================

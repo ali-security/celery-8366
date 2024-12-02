@@ -53,7 +53,7 @@ in this example:
 
     from celery.exceptions import Retry
 
-    # for python 2: use mock.patch from `pip install mock`.
+    # for python 2: use mock.patch from `pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' mock`.
     from unittest.mock import patch
 
     from proj.models import Product

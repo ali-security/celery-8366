@@ -110,7 +110,7 @@ with standard Python tools like ``pip`` or ``easy_install``:
 
 .. code-block:: console
 
-    $ pip install celery
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery
 
 Application
 ===========

@@ -524,7 +524,7 @@ to run integration tests. The ``celery`` service also mounts the codebase
 and sets the ``PYTHONPATH`` environment variable to ``/home/developer``.
 By setting ``PYTHONPATH`` the service allows to use the mounted codebase
 as global module for development. If you prefer you can also run
-``python -m pip install -e .`` to install the codebase in development mode.
+``python -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -e .`` to install the codebase in development mode.
 
 If you would like to run a Django or stand alone project to manually test or
 debug a feature you can use the image built by `docker-compose` and mount
@@ -581,15 +581,15 @@ You do not have to use every requirements file but you must use `default.txt`.
 
 .. code-block:: console
 
-   # pip install -U -r requirements/default.txt
+   # pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/default.txt
 
 To run the Celery test suite you need to install
 :file:`requirements/test.txt`.
 
 .. code-block:: console
 
-    $ pip install -U -r requirements/test.txt
-    $ pip install -U -r requirements/default.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/test.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/default.txt
 
 After installing the dependencies required, you can now execute
 the test suite by calling :pypi:`py.test <pytest>`:
@@ -631,7 +631,7 @@ Installing the :pypi:`pytest-cov` module:
 
 .. code-block:: console
 
-    $ pip install -U pytest-cov
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U pytest-cov
 
 Code coverage in HTML format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -687,8 +687,8 @@ listed in :file:`requirements/docs.txt` and :file:`requirements/default.txt`:
 
 .. code-block:: console
 
-    $ pip install -U -r requirements/docs.txt
-    $ pip install -U -r requirements/default.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/docs.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/default.txt
 
 Additionally, to build with no warnings, you will need to install
 the following packages:
@@ -721,7 +721,7 @@ Installing the dependencies:
 
 .. code-block:: console
 
-    $ pip install -U -r requirements/pkgutils.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/pkgutils.txt
 
 pyflakes & PEP-8
 ~~~~~~~~~~~~~~~~
@@ -880,7 +880,7 @@ make it easier for the maintainers to accept your proposed changes:
 
       .. code-block:: console
 
-          $ pip install -U bandit
+          $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U bandit
           $ bandit -b bandit.json celery/
           $ tox -e bandit
 
@@ -1176,7 +1176,7 @@ that require third-party libraries must be added.
 
     .. code-block:: console
 
-        $ pip install -U requirements/pkgutils.txt
+        $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U requirements/pkgutils.txt
         $ make readme
 
 

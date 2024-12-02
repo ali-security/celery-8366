@@ -10,9 +10,9 @@ This is a Celery application containing two example tasks.
 First you need to install Eventlet, and also recommended is the `dnspython`
 module (when this is installed all name lookups will be asynchronous)::
 
-    $ pip install eventlet
-    $ pip install dnspython
-    $ pip install requests
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' eventlet
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' dnspython
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' requests
 
 Before you run any of the example tasks you need to start
 the worker::

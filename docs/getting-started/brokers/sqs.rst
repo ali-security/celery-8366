@@ -15,7 +15,7 @@ the ``celery[sqs]`` :ref:`bundle <bundles>`:
 
 .. code-block:: console
 
-    $ pip install celery[sqs]
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery[sqs]
 
 .. _broker-sqs-configuration:
 

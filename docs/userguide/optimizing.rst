@@ -58,7 +58,7 @@ If you're using RabbitMQ (AMQP) as the broker then you can install the
 
 .. code-block:: console
 
-    $ pip install librabbitmq
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' librabbitmq
 
 The 'amqp' transport will automatically use the librabbitmq module if it's
 installed, or you can also specify the transport you want directly by using

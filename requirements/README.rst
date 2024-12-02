@@ -56,7 +56,7 @@ Installing requirements
 
 ::
 
-    $ pip install -U -r requirements/default.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/default.txt
 
 
 Running the tests
@@ -64,5 +64,5 @@ Running the tests
 
 ::
 
-    $ pip install -U -r requirements/default.txt
-    $ pip install -U -r requirements/test.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/default.txt
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U -r requirements/test.txt

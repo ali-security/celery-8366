@@ -910,7 +910,7 @@ Identifying the type of process is easier if you have installed the
 
 .. code-block:: console
 
-    $ pip install setproctitle
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' setproctitle
 
 With this library installed you'll be able to see the type of process in
 :command:`ps` listings, but the worker must be restarted for this to take effect.

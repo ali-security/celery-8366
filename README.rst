@@ -233,7 +233,7 @@ To install using ``pip``:
 ::
 
 
-    $ pip install -U Celery
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U Celery
 
 .. _bundles:
 
@@ -250,9 +250,9 @@ separating them by commas.
 ::
 
 
-    $ pip install "celery[librabbitmq]"
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' "celery[librabbitmq]"
 
-    $ pip install "celery[librabbitmq,redis,auth,msgpack]"
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' "celery[librabbitmq,redis,auth,msgpack]"
 
 The following bundles are available:
 
@@ -383,11 +383,11 @@ pip commands:
 ::
 
 
-    $ pip install https://github.com/celery/celery/zipball/master#egg=celery
-    $ pip install https://github.com/celery/billiard/zipball/master#egg=billiard
-    $ pip install https://github.com/celery/py-amqp/zipball/master#egg=amqp
-    $ pip install https://github.com/celery/kombu/zipball/master#egg=kombu
-    $ pip install https://github.com/celery/vine/zipball/master#egg=vine
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' https://github.com/celery/celery/zipball/master#egg=celery
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' https://github.com/celery/billiard/zipball/master#egg=billiard
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' https://github.com/celery/py-amqp/zipball/master#egg=amqp
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' https://github.com/celery/kombu/zipball/master#egg=kombu
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' https://github.com/celery/vine/zipball/master#egg=vine
 
 With git
 ~~~~~~~~

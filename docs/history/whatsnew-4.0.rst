@@ -1355,7 +1355,7 @@ This package is fully Python 3 compliant just as this backend is:
 
 .. code-block:: console
 
-    $ pip install python-consul
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' python-consul
 
 That installs the required package to talk to Consul's HTTP API from Python.
 
@@ -1363,7 +1363,7 @@ You can also specify consul as an extension in your dependency on Celery:
 
 .. code-block:: console
 
-    $ pip install celery[consul]
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery[consul]
 
 See :ref:`bundles` for more information.
 
@@ -1383,7 +1383,7 @@ To depend on Celery with Cassandra as the result backend use:
 
 .. code-block:: console
 
-    $ pip install celery[cassandra]
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery[cassandra]
 
 You can also combine multiple extension requirements,
 please see :ref:`bundles` for more information.
@@ -1399,7 +1399,7 @@ To depend on Celery with Elasticsearch as the result bakend use:
 
 .. code-block:: console
 
-    $ pip install celery[elasticsearch]
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery[elasticsearch]
 
 You can also combine multiple extension requirements,
 please see :ref:`bundles` for more information.

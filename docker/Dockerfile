@@ -67,42 +67,42 @@ RUN chmod gu+x /entrypoint
 # Define the local pyenvs
 RUN pyenv local python3.6 python3.5 python3.4 python2.7 python3.7
 
-RUN pyenv exec python2.7 -m pip install --upgrade pip setuptools && \
-    pyenv exec python3.4 -m pip install --upgrade pip setuptools && \
-    pyenv exec python3.5 -m pip install --upgrade pip setuptools && \
-    pyenv exec python3.6 -m pip install --upgrade pip setuptools && \
-    pyenv exec python3.7 -m pip install --upgrade pip setuptools
+RUN pyenv exec python2.7 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools && \
+    pyenv exec python3.4 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools && \
+    pyenv exec python3.5 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools && \
+    pyenv exec python3.6 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools && \
+    pyenv exec python3.7 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' --upgrade pip setuptools
 
 # Setup one celery environment for basic development use
-RUN pyenv exec python3.7 -m pip install \
+RUN pyenv exec python3.7 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' \
   -r requirements/default.txt \
   -r requirements/test.txt \
   -r requirements/test-ci-default.txt \
   -r requirements/docs.txt \
   -r requirements/test-integration.txt \
   -r requirements/pkgutils.txt && \
-  pyenv exec python3.6 -m pip install \
+  pyenv exec python3.6 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' \
   -r requirements/default.txt \
   -r requirements/test.txt \
   -r requirements/test-ci-default.txt \
   -r requirements/docs.txt \
   -r requirements/test-integration.txt \
   -r requirements/pkgutils.txt && \
-  pyenv exec python3.5 -m pip install \
+  pyenv exec python3.5 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' \
   -r requirements/default.txt \
   -r requirements/test.txt \
   -r requirements/test-ci-default.txt \
   -r requirements/docs.txt \
   -r requirements/test-integration.txt \
   -r requirements/pkgutils.txt && \
-  pyenv exec python3.4 -m pip install \
+  pyenv exec python3.4 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' \
   -r requirements/default.txt \
   -r requirements/test.txt \
   -r requirements/test-ci-default.txt \
   -r requirements/docs.txt \
   -r requirements/test-integration.txt \
   -r requirements/pkgutils.txt && \
-  pyenv exec python2.7 -m pip install \
+  pyenv exec python2.7 -m pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' \
   -r requirements/default.txt \
   -r requirements/test.txt \
   -r requirements/test-ci-default.txt \

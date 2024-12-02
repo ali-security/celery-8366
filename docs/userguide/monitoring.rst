@@ -280,7 +280,7 @@ You can use pip to install Flower:
 
 .. code-block:: console
 
-    $ pip install flower
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' flower
 
 Running the flower command will start a web-server that you can visit:
 

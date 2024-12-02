@@ -171,7 +171,7 @@ To use this with your project you need to follow these steps:
 
     .. code-block:: console
 
-        $ pip install django-celery-results
+        $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' django-celery-results
 
 #. Add ``django_celery_results`` to ``INSTALLED_APPS`` in your
    Django project's :file:`settings.py`::

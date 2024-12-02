@@ -246,7 +246,7 @@ If you are using the eventlet workers pool please install Celery using:
 
 .. code-block:: console
 
-  $ pip install -U celery[eventlet]
+  $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U celery[eventlet]
 
 MessagePack Serializer
 ----------------------
@@ -260,7 +260,7 @@ previous package and reinstall the new one using:
 .. code-block:: console
 
   $ pip uninstall msgpack-python -y
-  $ pip install -U celery[msgpack]
+  $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U celery[msgpack]
 
 MongoDB Result Backend
 -----------------------
@@ -273,7 +273,7 @@ If you are using the MongoDB result backend please install Celery using:
 
 .. code-block:: console
 
-  $ pip install -U celery[mongodb]
+  $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U celery[mongodb]
 
 Redis Message Broker
 --------------------

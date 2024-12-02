@@ -12,7 +12,7 @@ CRYPTOGRAPHY_NOT_INSTALLED = """\
 You need to install the cryptography library to use the auth serializer.
 Please install by:
 
-    $ pip install cryptography
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' cryptography
 """
 
 SECURITY_SETTING_MISSING = """\

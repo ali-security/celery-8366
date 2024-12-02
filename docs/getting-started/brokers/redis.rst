@@ -15,7 +15,7 @@ the ``celery[redis]`` :ref:`bundle <bundles>`:
 
 .. code-block:: console
 
-    $ pip install -U "celery[redis]"
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' -U "celery[redis]"
 
 .. _broker-redis-configuration:
 

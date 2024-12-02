@@ -167,7 +167,7 @@ commands:
     $ # repeat until it fails
     # ...
     $ pip uninstall celery
-    $ pip install celery
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery
 
 Please run :program:`celery --help` for help using the umbrella command.
 
@@ -614,7 +614,7 @@ You install extras by specifying them inside brackets:
 
 .. code-block:: console
 
-    $ pip install celery[redis,mongodb]
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' celery[redis,mongodb]
 
 The above will install the dependencies for Redis and MongoDB. You can list
 as many extras as you want.

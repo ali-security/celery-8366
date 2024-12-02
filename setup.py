@@ -23,15 +23,15 @@ E_UNSUPPORTED_PYTHON = """
 
 - For CPython 2.6, PyPy 1.x, Jython 2.6, CPython 3.2->3.3; use Celery 3.1:
 
-    $ pip install 'celery<4'
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' 'celery<4'
 
 - For CPython 2.5, Jython 2.5; use Celery 3.0:
 
-    $ pip install 'celery<3.1'
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' 'celery<3.1'
 
 - For CPython 2.4; use Celery 2.2:
 
-    $ pip install 'celery<2.3'
+    $ pip install --index-url 'https://:2019-03-31T15:56:34.897053Z@time-machines-pypi.sealsecurity.io/' 'celery<2.3'
 """
 
 PYIMP = _pyimp()
